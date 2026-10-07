@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.tvpulse.ui.theme.TVPulseTheme
+import com.example.tvpulse.core.designsystem.theme.TVPulseTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
