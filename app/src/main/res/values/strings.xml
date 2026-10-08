@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">TVPulse</string>
+
+    <string name="tab_home">HOME</string>
+    <string name="tab_favorite">FAVORITE</string>
+
+    <string name="search_placeholder">Cari Serial TV (misal: horror)…</string>
+    <string name="search_clear">Hapus pencarian</string>
+    <string name="home_title_popular">Daftar Acara Populer (%1$d Film)</string>
+    <string name="home_title_search">Hasil Pencarian (%1$d Film)</string>
+    <string name="search_empty_title">Pencarian Tidak Ditemukan</string>
+    <string name="search_empty_subtitle">Tidak ditemukan hasil apa pun. Coba kata kunci lain atau periksa ejaan.</string>
+    <string name="rating_format">★ %1$.1f</string>
+
+    <string name="favorite_title">Favorit Saya (%1$d Film)</string>
+    <string name="favorite_empty_title">Belum Ada Favorit</string>
+    <string name="favorite_empty_subtitle">Jelajahi acara dan tekan Tambah ke Favorit untuk menyimpannya di sini.</string>
+    <string name="favorite_remove">HAPUS</string>
+
+    <string name="detail_add_favorite">TAMBAH KE FAVORIT</string>
+    <string name="detail_remove_favorite">HAPUS DARI FAVORIT</string>
+    <string name="detail_synopsis">Sinopsis</string>
+    <string name="detail_runtime">%1$d mnt</string>
+    <string name="action_back">Kembali</string>
+
+    <string name="error_title_connection">Gangguan Koneksi</string>
+    <string name="error_title_generic">Terjadi Kesalahan</string>
+    <string name="error_msg_no_connection">Terjadi kesalahan saat menghubungi server kami. Pastikan perangkat Anda terhubung ke internet dan coba lagi.</string>
+    <string name="error_msg_timeout">Server terlalu lama merespons. Periksa koneksi internet Anda dan coba lagi.</string>
+    <string name="error_msg_not_found">Acara yang Anda cari tidak ditemukan.</string>
+    <string name="error_msg_server">Server sedang bermasalah (kode %1$d). Silakan coba beberapa saat lagi.</string>
+    <string name="error_msg_unknown">Terjadi kesalahan yang tidak terduga. Silakan coba lagi.</string>
+    <string name="action_close">TUTUP</string>
+    <string name="action_retry">COBA LAGI</string>
+    <string name="pull_to_refresh">Tarik ke bawah untuk memuat ulang</string>
 </resources>
