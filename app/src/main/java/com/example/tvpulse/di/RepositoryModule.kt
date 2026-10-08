@@ -1,6 +1,8 @@
 package com.example.tvpulse.di
 
+import com.example.tvpulse.data.repository.FavoriteRepositoryImpl
 import com.example.tvpulse.data.repository.ShowRepositoryImpl
+import com.example.tvpulse.domain.repository.FavoriteRepository
 import com.example.tvpulse.domain.repository.ShowRepository
 import dagger.Binds
 import dagger.Module
@@ -15,4 +17,8 @@ abstract class RepositoryModule {
     @Binds
     @Singleton
     abstract fun bindShowRepository(impl: ShowRepositoryImpl): ShowRepository
+
+    @Binds
+    @Singleton
+    abstract fun bindFavoriteRepository(impl: FavoriteRepositoryImpl): FavoriteRepository
 }
