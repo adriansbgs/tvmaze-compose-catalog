@@ -18,7 +18,6 @@ private val LightColorScheme = lightColorScheme(
     tertiary = Sand40,
 )
 
-// ponytail: dynamic color off so the app matches the teal mockup on every device
 @Composable
 fun TVPulseTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),

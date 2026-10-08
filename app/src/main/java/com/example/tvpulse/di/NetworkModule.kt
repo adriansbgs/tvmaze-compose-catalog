@@ -26,6 +26,8 @@ object NetworkModule {
         coerceInputValues = true
     }
 
+    // No OkHttp Cache on purpose: TVmaze sends max-age=86400 on /shows,
+    // which would serve Home from disk offline and hide the required error dialog.
     @Provides
     @Singleton
     fun provideOkHttpClient(): OkHttpClient = OkHttpClient.Builder()
