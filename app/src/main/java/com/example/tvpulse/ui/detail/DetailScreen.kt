@@ -98,7 +98,6 @@ fun DetailScreen(
     }
 }
 
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun DetailBody(content: DetailContent, onToggleFavorite: () -> Unit) {
     val show = content.show
